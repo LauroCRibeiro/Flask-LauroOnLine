@@ -9,8 +9,8 @@ import json
 import pdfkit
 import stripe
 
-buplishable_key ='pk_test_MaILxTYQ15v5Uhd6NKI9wPdD00qdL0QZSl'
-stripe.api_key ='sk_test_9JlhVB6qwjcRdYzizjdwgIo0Dt00N55uxbWy'
+buplishable_key ='pk_test_51H8O6vBPV3q2aaIGnjlccq0FCn2O0U1qWSIR3KOaAgHjawVQpAr1CAHDQuG0mh6SZVtdCYg5geIN3tmtKX3am7u400FXth8dJQ'
+stripe.api_key ='sk_test_51H8O6vBPV3q2aaIG6YfrJ6cALeFJUkBJxkUFGTncFJy2lD8UKcFzpl4bGTllE6LPyOFJ3cpRieuTnzuXYNyunIRW00XQ3gG0qI'
 
 @app.route('/payment',methods=['POST'])
 def payment():
